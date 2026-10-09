@@ -1,13 +1,7 @@
-
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Game : MonoBehaviour
+public class Block : MonoBehaviour
 {
-    public static Game instance;
-    public List<PlayerController> players;
-    public Transform[] spawnpoint;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
